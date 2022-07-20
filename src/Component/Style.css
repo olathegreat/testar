@@ -1,0 +1,641 @@
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.brand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+li{
+    list-style: none;
+    margin-right:20px ;
+    font-size: 1.5em;
+    font-weight: 400;
+    
+}
+
+.navItems li{
+    display: flex;
+}
+.smallScreen{
+    display: none;
+}
+h2{
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: 400;
+    font-size: 3em;
+    text-decoration: 1px solid blue underline;
+
+}
+.list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+    float: right;
+}
+.nav{
+    width: 100%;
+}
+.nav ul{
+   
+   justify-content: space-around;
+   margin-bottom: 0;
+   
+   display: flex;
+   flex-wrap: wrap;
+   width: 100%;
+   align-items: center;
+}
+h1{
+    margin-right: 23%;
+}
+.navItems{
+    box-shadow: 1px 1px 5px rgb(4, 131, 200);
+    padding-top: 20px;
+    width: 100%;
+}
+.navItems h1{
+    font-size: 1em;
+}
+.lists{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+a{
+    color: rgb(225, 65, 7);
+}
+
+.smallScreen li{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    
+
+}
+
+
+
+
+/* home page styling */
+ .homeDesc .jumbotron{
+    background: none;
+    height: 90vh;
+}
+.homeDesc a{
+    text-decoration: none;
+    box-shadow: 2px 2px 5px rgb(100, 99, 99);
+    border-radius: 10px;
+    width: 50%;
+    text-align: center;
+    font-size: 1.5em;
+    background-color: white;
+
+}
+.jumbotron .col-sm-6{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.homeDesc a:hover,
+.homeDesc a:active{
+    background: none;
+}
+.homeDesc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.descContent{
+    font-size: 1.4em;
+}
+.homeJumbotron{
+    background-color: #62e5ff;
+}
+/* jumbotron aniation */
+
+
+/* about section */
+.about{
+    width: 100%;
+    background-color: white;
+    margin-top: 20px;
+    height: 80vh;
+    padding-top: 20px;
+}
+.aboutright{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.aboutDesc{
+    font-size: 1.5em;
+}
+.about container{
+    width: 100%;
+    margin: 0;
+}
+
+/* dont misout section */
+
+.dont{
+    margin-top: 0px;
+    background-color: #c5c8c9;
+
+}
+.dont h2{
+    color: rgb(225, 65, 7);
+    text-decoration: 1px orange underline;
+}
+.dont img{
+    box-shadow:  #067ab0;
+}
+label{
+    color: rgb(225, 65, 7);
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+.dont button{
+    border: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(225, 65, 7);
+    margin-top: 10px;
+    border-radius: 3px;
+    font-size: 1.5em;
+    padding: 5px;
+}
+.dont input{
+    font-size: 1.5em;
+}
+.feedback row{
+    justify-content: center;
+    align-items: center;
+}
+.feedback .left{
+    font-size: 1.8em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.feedback i {
+    font-size: 1.8em;
+    color: rgb(225, 65, 7);
+    margin-right: 15px;
+}
+
+/* Footer */
+
+.footer{
+    padding: 30px;
+
+}
+.footer i{
+    font-size: 1.5em;
+}
+.footer .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.designed{
+    text-align: center;
+}
+
+
+
+/* question */
+.question{
+    
+    font-size: 1.5em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.result{
+
+    border-radius: 10px;
+    padding: 60px;
+}
+
+.prompt .question{
+    font-size: 1.8em;
+    font-weight: 600;
+}
+.prompt h3{
+    font-size: 1.2em;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.question-note{
+    font-size: 1em;
+    color: #067ab0;
+    margin-bottom: 5px;
+}
+.question .container{
+    box-shadow: 1px 1px 3px rgba(164, 162, 162, 0.757);
+    padding:5%;
+    border-radius: 15px;
+}
+
+.question .header-flex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.question button{
+    border: none;
+    padding: 10px;
+    font-size: 1em;
+    background-color: rgba(171, 169, 166, 0.711);
+    color: black;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.question .submit button{
+    background-color: rgba(0, 128, 0, 0.798);
+}
+.question-navs{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.option{
+    cursor: pointer;
+}
+.question button{
+    cursor: pointer;
+}
+.full-option{
+    display: flex;
+}
+.prompt{
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+}
+.buttonPrompt{
+    display: flex;
+    align-items: center;
+}
+.buttonPrompt button{
+    margin-right: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    font-size: 1.5em;
+    padding: 10px;
+    border-radius: 5px;
+} 
+
+/* Dashboard */
+
+.dashboard li{
+    justify-content: center;
+    align-items: center;
+}
+.dashboard input{
+    width: 20%;
+}
+
+.dashboard img{
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+    align-items: center;
+}
+.advice{
+    display: flex;
+    border: 1px solid rgba(128, 128, 128, 0.153);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 20px;
+}
+.advice-content{
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.sidebar{
+    background-color: rgba(128, 128, 128, 0.15);
+}
+.progressContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.circles{
+    margin-right: 20px;
+}
+.bigger{
+    font-size: 2em ;
+}
+.result{
+    text-align: center;
+    
+}
+.finalEvaluation{
+    display: flex;
+    justify-content: space-around;
+    font-size: 2em;
+    
+    margin: 20px;
+}
+.finalEvaluation .bigger{
+    margin-left: 10px;
+    color: #067ab0;
+}
+
+
+/* Bokshelf */
+.bookshelf img{
+    width: 100%;
+    margin-bottom: 10px;
+    
+    transition: all 2s ease;
+}
+.bookshelf .jumbotron{
+    border-bottom: 1px solid white;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.video{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+   
+}
+.bookshelf a{
+     background-color: #0b9de0;
+     color: white;
+}
+iframe{
+    display: flex;
+    width: 60%;
+    height: 600px;
+}
+
+.bookshelf{
+    
+    padding-bottom: 40px ;
+}
+.bookshelf .col-sm-4{
+    margin-top: 10px;
+    box-shadow: 1px 1px 5px #067ab076;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    padding: 20px;
+
+}
+.bookshelf .download{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.bookshelf .bookname{
+    font-weight: 800;
+}
+.bookshelf .row{
+    width: 100%;
+    justify-content: space-between;
+
+}
+.bookname .author{
+    font-style:italic;
+}
+.bookname .description{
+    margin-bottom: 40px;
+}
+.bookshelf a{
+    margin-top: 10px;
+    background-color: rgba(176, 176, 172, 0.452);
+    padding: 10px;
+    color: #0b9de0;
+}
+.numRender{
+    display: inline-flex;
+}
+.bookshelflink{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+/* explore */
+.explore{
+    padding: 40px;
+}
+.explore .container{
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: none;
+}
+
+.explore .col-sm-4{
+    margin-bottom: 40px;
+    border: none;
+    width: 24%;
+    box-shadow: none;
+    background: none;
+}
+.explore .form{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+/* sign in */
+.sign{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+     
+    padding-top: 30px;
+    padding-bottom: 30px;      
+}
+.sign form{
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px rgba(213, 197, 197, 0.355);
+    width: auto;
+    height: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius:0;
+}
+.sign h3{
+    
+    color: white;
+    text-align: center;
+    background-color: orange;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 3px;
+    margin-bottom: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius:0;
+    
+}
+.sign button{
+    border: none;
+    background-color: #0b9de0;
+    padding: 5px 10px;
+    
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.form-group{
+    margin-bottom: none;
+}
+
+
+
+
+/* responsiveness */
+@media screen and (max-width: 480px) {
+
+    .jumbotron{
+    
+        height: 100%;
+        font-size: 1em;
+        width: 100%;
+        overflow: hidden;
+    }
+    .homeDesc a{
+        margin-bottom: 20px;
+        font-size: 1.1em;
+    }
+    /* .nav li{
+        display: none;
+    } */
+   .nav ul{
+       display: flex;
+       flex-direction: column;
+   }
+
+.question .container{
+    box-shadow:none;
+    width: 100%;
+    font-size: 0.9em;
+}
+.question h1{
+    font-size: 1em;
+    padding: 0;
+    width: 100%;
+
+}
+.question-note{
+    padding: 0;
+}
+.question{
+    padding: none;
+}
+
+.feedback form{
+    height: auto;
+    margin-bottom: 20px;
+}
+iframe{
+    height: 250px;
+    width: auto;
+}
+.bookshelf h3{
+    font-size: 1.2em;
+    text-align: center;
+}
+.question{
+    font-size: 1.2em;
+    text-align: center;
+}
+.result{
+    font-size: 14px;
+    
+}
+.bigger{
+    font-size: 14px;
+}
+.progressContainer{
+    flex-direction: column;
+}
+.circles{
+    margin-bottom: 10px;
+}
+.advice{
+    flex-direction: column;
+}
+.advice-content{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
+}
+.about{
+    height: auto;
+    padding-bottom: 40px;
+}
+.bookshelf .col-sm-4{
+    margin-left: 15px;
+}
+.feedback h2{
+    font-size: 1.2em;
+    
+}
+.feedback .row{
+  font-size: .5em;
+
+}
+}
+
+
+@media screen and (max-width: 770px) {
+
+        .nav ul{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .brand{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        .nav h1{
+            margin-right: 0;
+        }
+    
+    
+}
+@media screen and (min-width: 1040px) {
+    .dashboard{
+        height: 90vh;
+    }
+    .homeDesc{
+        height: 80vh;
+    }
+}
