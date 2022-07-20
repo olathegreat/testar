@@ -51,7 +51,7 @@ const NavItems = () => {
 
                         <li><Link to="/">Home</Link> </li>
                        <li><Link to="/bookshelf">Bookshelf</Link></li>
-                       <li><Link to="/explore">Explore</Link></li> 
+                       {/* <li><Link to="/explore">Explore</Link></li>  */}
                     <li><Link to="/test">Test</Link></li>
                      <li> <Link to="/sign">Sign In</Link></li>
                            
