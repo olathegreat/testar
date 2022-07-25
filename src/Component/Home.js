@@ -5,10 +5,8 @@ import "../regular/icofont.css"
 import "./Style.css"
 import { Link } from 'react-router-dom';
 import { ThemeContext } from '../Context';
-import okwoman from "./img/okwoman.png"
 import bell from "./img/alert.png"
 import emailjs from 'emailjs-com';
-import Test from "./Test";
 import Footer from "./Footer";
 import NavItems from "./NavItems";
 
@@ -43,7 +41,7 @@ const Homepage = () => {
   return (
    
   <div>
-     <nav id="nav">
+               <nav id="nav">
                        
                       
                        <NavItems/>
@@ -53,6 +51,7 @@ const Homepage = () => {
 
 
     <div className='jumbotron' style={{  backgroundColor: darkMode? "#222" : "#62e5ff",color: darkMode && "white"}}>
+      
      
       <div className='container'>
  
@@ -91,10 +90,10 @@ const Homepage = () => {
                 
                 <div className='aboutDesc'>
                   Testar is an assessment platform built to give
-                  you an overview of your knowledge in the general knowledge field.
+                  you an overview of your understanding and clarity in the general knowledge field.
                   It is properly incorporated with sections and features where you can 
                   learn, read books, explore the internet by reading latest news.
-                  It has also have a Dashboard that allows you to keep track of your 
+                  It  also has a Dashboard that allows you to keep track of your 
                   test progress and records.
                 </div>
               </div>
@@ -118,7 +117,7 @@ const Homepage = () => {
                   To enable our users learn at ease with less pressure, 
                   we have sub divided general knowledge to weekly bits. 
                   Our weekly news letter is properly curated by our 
-                  team of industry and educational to meet a yearly 
+                  team of industry and educational expert to meet a yearly 
                   goal of tremendous development 
                 </div>
                 

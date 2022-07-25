@@ -84,7 +84,7 @@ const Test = ({Questions}) => {
       <div className='promptQuestion' style={{color:darkMode&&"black"}}>
         <div className='popperquestion'><div className='question'> Are you ready to take the test </div></div>
        
-        <h3>{Questions.length} questions in 10 mins</h3>
+        <h3>{Questions.length} questions in 10 mins. 1 minute per question.</h3>
       </div>
       <div className='buttonPrompt'>
         <button onClick={()=>{
@@ -112,7 +112,7 @@ const Test = ({Questions}) => {
                Question {Questions[questNum].id} of {Questions.length}
              </div>
              <div className='time-countdown'>
-               <Countdown date={Date.now() + 600000}><div>Time is up</div></Countdown>/10min
+               <Countdown date={Date.now() + 60000}><div>Time is up</div></Countdown>/1min
              </div>
 
              
@@ -259,7 +259,7 @@ const Test = ({Questions}) => {
                
 
     </div> */}
-    <Footer/>
+    {/* <Footer/> */}
     </div>
   );
 }

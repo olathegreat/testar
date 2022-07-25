@@ -72,7 +72,7 @@ const NavItems = () => {
                   
                        
                 <img src='./testar.svg' style={{width:"50px", height:"50px",fill:"white", marginRight:"5px"}}></img>
-                <h3>TESTAR</h3>
+                <h3 style={{marginTop:"8px"}}>TESTAR</h3>
     
   
                 <i className='icofont-close'  style={{display:!icondisplay && "none",marginLeft:"20px"}} onClick={(e)=>{
@@ -92,7 +92,7 @@ const NavItems = () => {
         <li style={{display:linkDisplay?"flex":"none"}}><Link to="/">Home</Link> </li>
         <li style={{display:linkDisplay?"flex":"none"}}><Link to="/bookshelf">Bookshelf</Link></li>
         {/* <li><Link to="/dashboard">Dashboard</Link></li> */}
-        <li style={{display:linkDisplay?"flex":"none"}}><Link to="/explore">Explore</Link></li>
+        {/* <li style={{display:linkDisplay?"flex":"none"}}><Link to="/explore">Explore</Link></li> */}
         <li style={{display:linkDisplay?"flex":"none"}}><Link to="/test">Test</Link></li>
         <li style={{display:linkDisplay?"flex":"none"}}> <Link to="/sign">Sign In</Link></li>
       </div>

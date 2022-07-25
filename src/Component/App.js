@@ -8,12 +8,11 @@ import Questions from "./Questions";
 import Test from "./Test";
 import Home from "./Home";
 import {Routes, Route } from "react-router-dom";
-import NavItems from "./NavItems";
 import Toggle from './Toggle';
 import { ThemeContext } from '../Context';
 import "./Style.css";
-import Footer from "./Footer";
 import BookData from "./BookData";
+import UpIcon from "./UpIcon";
 
 
 const App = () => {
@@ -36,6 +35,7 @@ const App = () => {
                         <Route path="*" element={<Error/>}/>
                     </Routes>
                     <Toggle/>
+                    <UpIcon/>
                     
                     
     </div>

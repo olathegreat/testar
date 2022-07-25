@@ -1,8 +1,6 @@
 import React ,{useContext}from 'react';
 import "../regular/icofont.css";
-import study from "./img/study.png"
-import reading from "./img/reading.png"
-import { Link } from 'react-router-dom';
+import reading from "./img/reading.png";
 import { ThemeContext } from '../Context';
 import video from "./video/video.mp4";
 import Footer from './Footer';
@@ -54,6 +52,7 @@ const Bookshelf = ({bookData}) => {
                 <div className='bookshelf'>
       
       <div className='jumbotron' style={{  backgroundColor: darkMode? "#222" : "rgb(250, 116, 57)",color: "white"}}>
+        
      
          <div className='container'>
 
