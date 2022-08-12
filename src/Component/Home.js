@@ -57,7 +57,7 @@ const Homepage = () => {
  
         <div className='row'>
                <div className='homeDesc col-sm-6'>
-                     <h1>Get Tested Today!</h1>
+                     <h1>Get Tested <span className="orange">Today!</span></h1>
                      <div className='descContent'>
                        Take our general knowledge test to evaluate
                        your intelligence on wider range of fields
@@ -68,11 +68,11 @@ const Homepage = () => {
                        <Link to="/test">Take Assessment</Link>
 
                  </div>
-                 <div className='col-sm-6'>
+                 <div className='col-sm-6 img-right'>
                     <img src={hero} alt=""/>
                  </div>
         
-        </div>
+             </div>
       </div> 
     </div>
 
@@ -80,25 +80,26 @@ const Homepage = () => {
 
 
     <div className='about'>
-           <div className='container' style={{  backgroundColor: darkMode? "white" : "white",color: darkMode && "black"}}>
+        <div className='container' style={{  backgroundColor: darkMode? "white" : "white",color: darkMode && "black"}}>
            <h2>About</h2>
             <div className='row'>
-              <div className='col-sm-6' style={{display:"flex",alignItems:"center",justifyContent:"center"}}>
-                <img src={holdphone} alt=""/>
-              </div>
-              <div className='col-sm-6 aboutright'>
-                
-                <div className='aboutDesc'>
-                  Testar is an assessment platform built to give
-                  you an overview of your understanding and clarity in the general knowledge field.
-                  It is properly incorporated with sections and features where you can 
-                  learn, read books, explore the internet by reading latest news.
-                  It  also has a Dashboard that allows you to keep track of your 
-                  test progress and records.
-                </div>
-              </div>
+                      <div className=' col-sm-6' style={{display:"flex",alignItems:"center",justifyContent:"center"}}>
+                        <img src={holdphone} alt=""/>
+                      </div>
+
+                  <div className='col-sm-6 aboutright'>
+                    
+                          <div className='aboutDesc'>
+                            Testar is an assessment platform built to give
+                            you an overview of your understanding and clarity in the general knowledge field.
+                            It is properly incorporated with sections and features where you can 
+                            learn, read books, explore the internet by reading latest news.
+                            It  also has a Dashboard that allows you to keep track of your 
+                            test progress and records.
+                          </div>
+                  </div>
             </div>
-          </div>
+         </div>
     </div>
 
 

@@ -1,5 +1,5 @@
 *{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+     font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; 
 }
 .brand{
     display: flex;
@@ -23,9 +23,10 @@ li{
 h2{
     text-align: center;
     margin-bottom: 25px;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 3em;
-    text-decoration: 1px solid blue underline;
+    text-decoration: 1px underline  rgb(254, 137, 41);
+    
 
 }
 .list{
@@ -84,7 +85,10 @@ a{
 /* home page styling */
  .homeDesc .jumbotron{
     background: none;
-    height: 90vh;
+    height: auto;
+}
+.orange{
+    color: rgb(251, 86, 26);
 }
 
 
@@ -127,6 +131,14 @@ a{
 .homeJumbotron{
     background-color: #62e5ff;
 }
+img-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-right img{
+    margin-top: 20px;
+}
 /* jumbotron aniation */
 
 
@@ -135,8 +147,10 @@ a{
     width: 100%;
     background-color: white;
     margin-top: 20px;
-    height: 80vh;
+    margin-bottom: 20px;
+    height: auto;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 .aboutright{
     display: flex;
@@ -161,7 +175,7 @@ a{
 }
 .dont h2{
     color: rgb(225, 65, 7);
-    text-decoration: 1px orange underline;
+    
 }
 .dont img{
     box-shadow:  #067ab0;
@@ -496,6 +510,9 @@ iframe{
     border-top-left-radius: 0;
     border-top-right-radius:0;
 }
+.form-control:focus{
+   box-shadow: none;
+}
 .sign h3{
     
     color: white;
@@ -507,6 +524,7 @@ iframe{
     margin-bottom: 0;
     border-bottom-left-radius: 0;
     border-bottom-right-radius:0;
+    font-size: 1em;
     
 }
 .sign button{
@@ -607,6 +625,15 @@ iframe{
     font-size: 1.2em;
     text-align: center;
 }
+h3{
+    font-size: 1.2em;
+}
+h2{
+    font-weight: 700;
+}
+h1{
+    margin-right: 0;
+}
 .result{
     font-size: 14px;
     
@@ -636,8 +663,9 @@ iframe{
 .bookshelf .col-sm-4{
     margin-left: 15px;
 }
-.feedback h2{
-    font-size: 1.2em;
+
+h2{
+    font-size: 1.8em;
     
 }
 .feedback .row{
@@ -663,9 +691,11 @@ iframe{
         .nav h1{
             margin-right: 0;
         }
+
     
     
 }
+
 @media screen and (min-width: 1040px) {
     .dashboard{
         height: 90vh;
